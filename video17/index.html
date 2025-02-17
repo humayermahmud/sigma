@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+    <style>
+        .red{
+            background-color: aquamarine;
+        }
+        #green{
+            background-color: blanchedalmond;
+        }
+        /* child selectors */
+        div > p {
+            color: violet;
+            background-color: teal;
+        }
+        /* decrement selectors */
+        div  p {
+            color: violet;
+            background-color: teal;
+        }
+        /* universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* pseudo seltors */
+        
+    </style>
+  </head>
+  <body>
+    <div class="red">i am a div .</div>
+    <div id="green">i am another div
+        <p>I am a peragraph inside div .</p>
+    </div>
+    
+  </body>
+</html>
