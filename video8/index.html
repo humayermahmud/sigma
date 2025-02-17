@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>quiz</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form action="/submit" method="post">
+      <div>
+        <label for="username">Username :</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter your username"
+          required
+        />
+      </div><br><br>
+      <div>
+        <label for="city">City :</label>
+        <input
+          type="text"
+          id="city"
+          name="city"
+          placeholder="Enter your city"
+          required
+        />
+      </div><br><br>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div><br><br>
+      <div>
+      <select name="Class" >
+        <option value="class">Class</option>
+        <option value="Six">Six</option>
+        <option value="seven">Seven</option>
+        <option value="Eight">Eight</option>
+        <option value="Nine">Nine</option>
+        <option value="Ten">Ten</option>
+        <option value="Eleven">Eleven</option>
+        <option value="Twelve">Twelve</option>
+      </select>
+      </div><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
