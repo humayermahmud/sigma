@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css List</title>
+    <style>
+        nav ul li{
+            padding: 10px;
+            list-style: none;
+            border: 3px solid black;
+            border-radius: 5px;
+            
+        }
+        ul{
+            display: flex;
+            
+        }
+        .user{
+            padding-left: 800px;
+        }
+        li::selection{
+            color: dimgrey;
+
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Contact</li>
+            <li>About</li>
+            <li class="user">Log in</li>
+            <li>Register</li>
+        </ul>
+    </nav>
+</body>
+</html>
