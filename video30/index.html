@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        :root{
+            --color: rgba(246, 10, 10, 0.923);
+            --seccolor:rgb(165, 57, 57);
+        }
+
+        ul{
+            border:5px solid rosybrown;
+            border-radius: 10px;
+            display: flex;
+        }
+
+        ul li{
+            border: 3px solid black;
+            border-radius: 15px;
+            --color: rgba(246, 120, 10, 0.923);
+            background-color: var(--color);
+            list-style-type: none;
+            padding: 25px;
+        }
+        
+        .nav{
+            background-color: var(--color);
+            box-sizing: border-box;
+        }
+
+        .container{
+            border: 5px solid rebeccapurple;
+            background-color: var(--seccolor);
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aperiam ipsum, cupiditate quidem omnis perspiciatis sequi consequatur soluta ullam iusto nihil tenetur repudiandae. Quisquam adipisci eligendi minima ipsam nihil. Placeat ad, eius, fuga incidunt officiis temporibus corporis, veniam commodi sint maxime exercitationem vero nihil totam.
+    </div>
+</body>
+</html>
