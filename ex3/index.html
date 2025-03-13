@@ -5,35 +5,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Card</title>
     <style>
+      body {
+        background-color: gray;
+        padding: 10px 80px;
+        display: flex;
+      }
       .parent {
+        background-color: white;
         border: 2px solid black;
         border-radius: 20px;
-        padding-bottom: 80vw;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        height: auto;
+        width: 200px;
+        height: 400px;
+        margin: 20px;
       }
-      .li ul {
-        list-style: none;
-        display: flex;
-       
-      }
-      li {
-        border: 1px solid black;
+      .image {
         padding: 5px;
-        border-radius: 5px;
+      }
+      .image img {
+        border-radius: 20px;
+        height: 145px;
+      }
+      .content{
+        padding: 5px;
+      }
+      .capsules{
+        padding: 3px 10px;
+      }
+      .capsules span{
+        border: 2px solid gray;
+        border-radius: 10px;
+        padding: 1px 3px;
+        cursor: pointer;
+      }
+      .Button{
+        text-align: center;
+      }
+      .Button button{
+        padding: 5px 30px;
+        border-radius: 20px;
+        background-color: aqua;
+        border: none;
+        cursor: pointer;
+      }
+      .Button button:hover{
+        background-color: rgb(92, 142, 142);
+        color: rgb(40, 34, 34);
+      }
+      .capsules span:hover{
+        background-color: aquamarine;
       }
     </style>
   </head>
   <body>
     <div class="parent">
-      <img src="card.jpeg" alt="nature" height="150" />
-      <div class="li">
-        <ul>
-          <li>Sun</li>
-          <li>Tree</li>
-        </ul>
+      <div class="image">
+        <img src="card.jpeg" alt="nature" width="190"/>
+      </div>
+      <div class="capsules">
+        <span>Nature</span>
+        <span>Sun</span>
+        <span>Tree</span>
+      </div>
+      <div class="content">
+        <h2>Sun Rise</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam non, fugit minus nulla sit ab?</p>
+      </div>
+      <div class="Button">
+        <button>See More</button>
+      </div>
+    </div>
+  </body>
+  <body>
+    <div class="parent">
+      <div class="image">
+        <img src="sunrise.jpeg" alt="nature" width="190"/>
+      </div>
+      <div class="capsules">
+        <span>Nature</span>
+        <span>Sun</span>
+        <span>Tree</span>
+        <span>Lake</span>
+      </div>
+      <div class="content">
+        <h2>Sun Rise</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam non, fugit minus nulla sit ab?</p>
+      </div>
+      <div class="Button">
+        <button>See More</button>
+      </div>
+    </div>
+  </body>
+  <body>
+    <div class="parent">
+      <div class="image">
+        <img src="card1.jpeg" alt="nature" width="190"/>
+      </div>
+      <div class="capsules">
+        <span>Nature</span>
+        <span>Garden</span>
+        <span>Tree</span>
+      </div>
+      <div class="content">
+        <h2>Garden</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam non, fugit minus nulla sit ab?</p>
+      </div>
+      <div class="Button">
+        <button>See More</button>
       </div>
     </div>
   </body>
