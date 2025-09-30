@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creating Nav bar with flex box</title>
+    <style>
+      .logo img {
+        width: 150px;
+        cursor: pointer;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .right ul {
+        display: flex;
+        gap: 35px;
+      }
+
+      .right ul li {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+      }
+
+      .right ul li span {
+        padding: 0 5px;
+      }
+
+      .Button{
+        text-align: center;
+      }
+
+      .Button button{
+        padding: 10px 20px;
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 3px;
+      }
+      .Button button:hover{
+        color: rgba(4, 4, 4, 0.346);
+      }
+
+      .language:hover{
+        color: rgba(4, 4, 4, 0.346);
+      }
+      .language img{
+        padding: 0x 5px;
+        width: 15px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo"><img src="Background-2.png" alt="" /></div>
+        <div class="right">
+          <ul>
+            <li>
+              <span>Products</span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="14"
+                height="14"
+                color="#000000"
+                fill="none"
+              >
+                <path
+                  d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </li>
+            <li>
+              <span>Pricing</span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="14"
+                height="14"
+                color="#000000"
+                fill="none"
+              >
+                <path
+                  d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </li>
+            <li>
+              <span>Resources</span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="14"
+                height="14"
+                color="#000000"
+                fill="none"
+              >
+                <path
+                  d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </li>
+            <li>
+              <span>Our Company</span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="14"
+                height="14"
+                color="#000000"
+                fill="none"
+              >
+                <path
+                  d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </li>
+            <li class="Button">
+              <button><b>BUY NOW</b></button>
+            </li>
+            <li class="language"><img src="world.png" alt=""><span>English</span></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
